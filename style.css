@@ -2,16 +2,29 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: #ffffff;
 }
 
 .hero {
     text-align: center;
     padding: 30px;
-    background: #f0f0f0;
+    background: #ffffff;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto 10px;
 }
 
 .section {
     padding: 20px;
+    background: #9e9e9e;
 }
 
 /* 技能進度條 */
@@ -21,33 +34,75 @@ body {
 .bar {
     width: 100%;
     height: 10px;
-    background: #ddd;
+    background: #ffffff;
 }
 .progress {
     height: 10px;
     background: #4caf50;
 }
-
 /* 技能 B版標籤雲 */
 .tag {
     display: inline-block;
     padding: 5px 10px;
     margin: 5px;
-    background: #cce5ff;
+    background: #7d7d7d;
     border-radius: 10px;
+    color: #ffffff;
 }
 
 /* 時間軸 */
-.timeline li {
-    padding: 8px;
+.timeline {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #4caf50;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+    padding-left: 80px;
+    position: relative;
+}
+
+.timeline-year {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #4caf50;
+    color: #ffffff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.timeline-text {
+    display: block;
+    padding: 10px 15px;
+    background: #6d6d6d;
+    border-radius: 8px;
+    color: #ffffff;
+    border-left: 4px solid #4caf50;
 }
 
 /* 卡片 */
 .card {
     padding: 15px;
     margin: 15px 0;
-    border: 1px solid #ccc;
+    background: #7d7d7d;
+    border: 1px solid #666;
     border-radius: 10px;
     transition: transform 0.2s ease;
+    color: #ffffff;
 }
 

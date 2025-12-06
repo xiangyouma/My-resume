@@ -2,7 +2,7 @@
 document.querySelectorAll(".section").forEach((sec) => {
     sec.addEventListener("mouseover", () => {
         sec.style.transition = "0.3s";
-        sec.style.background = "#f8f8f8";
+        sec.style.background = "#4d85aaff";
     });
     sec.addEventListener("mouseout", () => {
         sec.style.background = "white";
