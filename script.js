@@ -11,5 +11,5 @@ document.querySelectorAll(".section").forEach((sec) => {
 
 // 點擊 Skills 自動滑動
 document.getElementById("skills").addEventListener("click", () => {
-    window.scrollTo({ top: 600, behavior: "smooth" });
+    window.scrollTo({ top: 1200, behavior: "smooth" });
 });

@@ -27,19 +27,7 @@ body {
     background: #9e9e9e;
 }
 
-/* 技能進度條 */
-.skill-bar {
-    margin-bottom: 15px;
-}
-.bar {
-    width: 100%;
-    height: 10px;
-    background: #ffffff;
-}
-.progress {
-    height: 10px;
-    background: #4caf50;
-}
+
 /* 技能 B版標籤雲 */
 .tag {
     display: inline-block;
