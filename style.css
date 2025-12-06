@@ -40,15 +40,7 @@ body {
     height: 10px;
     background: #4caf50;
 }
-/* 技能 B版標籤雲 */
-.tag {
-    display: inline-block;
-    padding: 5px 10px;
-    margin: 5px;
-    background: #7d7d7d;
-    border-radius: 10px;
-    color: #ffffff;
-}
+
 
 /* 時間軸 */
 .timeline {
