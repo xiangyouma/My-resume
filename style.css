@@ -16,37 +16,38 @@ body {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #ffffff;
+    border: 2px solid #858585;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     display: block;
     margin: 0 auto 10px;
 }
 
 .section {
-    padding: 20px;
+    padding: 80px;
     background: #9e9e9e;
 }
 
-/* 技能進度條 */
-.skill-bar {
-    margin-bottom: 15px;
-}
-.bar {
-    width: 100%;
-    height: 10px;
-    background: #ffffff;
-}
-.progress {
-    height: 10px;
-    background: #4caf50;
+
+/* 技能 B版標籤雲 */
+.skills-version {
+    text-align: center;
 }
 
+.tag {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 8px;
+    background: #7d7d7d;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+}
 
 /* 時間軸 */
 .timeline {
     list-style: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 50px 0;
     position: relative;
 }
 
@@ -61,7 +62,7 @@ body {
 }
 
 .timeline-item {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     padding-left: 80px;
     position: relative;
 }
